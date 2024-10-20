@@ -1,0 +1,193 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 11:57:42.715952",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assignmentreportid",
+  "violationtypeid",
+  "violationdetails",
+  "violationdate",
+  "fineamount",
+  "fineimpositiondate",
+  "datevoucherfine",
+  "finevouchernumber",
+  "paymentstatus",
+  "notes",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "guid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "yearid",
+  "companyid",
+  "currencyid",
+  "productid",
+  "supplierid",
+  "violactioncategoryid"
+ ],
+ "fields": [
+  {
+   "fieldname": "assignmentreportid",
+   "fieldtype": "Int",
+   "label": "AssignmentReportId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "violationtypeid",
+   "fieldtype": "Int",
+   "label": "ViolationTypeId"
+  },
+  {
+   "fieldname": "violationdetails",
+   "fieldtype": "Data",
+   "label": "ViolationDetails"
+  },
+  {
+   "fieldname": "violationdate",
+   "fieldtype": "Date",
+   "label": "ViolationDate"
+  },
+  {
+   "fieldname": "fineamount",
+   "fieldtype": "Data",
+   "label": "FineAmount"
+  },
+  {
+   "fieldname": "fineimpositiondate",
+   "fieldtype": "Date",
+   "label": "FineImpositionDate"
+  },
+  {
+   "fieldname": "datevoucherfine",
+   "fieldtype": "Date",
+   "label": "DateVoucherFine"
+  },
+  {
+   "fieldname": "finevouchernumber",
+   "fieldtype": "Int",
+   "label": "FineVoucherNumber"
+  },
+  {
+   "fieldname": "paymentstatus",
+   "fieldtype": "Select",
+   "label": "PaymentStatus",
+   "options": "1\n0"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Date",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById",
+   "options": "Link"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID",
+   "options": "Link"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "1\n0"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "companyid",
+   "fieldtype": "Int",
+   "label": "CompanyId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "currencyid",
+   "fieldtype": "Int",
+   "label": "CurrencyId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "productid",
+   "fieldtype": "Int",
+   "label": "ProductId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "supplierid",
+   "fieldtype": "Int",
+   "label": "SupplierId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "violactioncategoryid",
+   "fieldtype": "Int",
+   "label": "ViolactionCategoryId",
+   "options": "Link"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 11:57:42.715952",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Violation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

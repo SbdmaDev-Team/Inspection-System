@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 12:04:36.551507",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "guid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "yearid",
+  "name1",
+  "shortname",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Int",
+   "label": "UpdateAt",
+   "options": "Link"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById",
+   "options": "Link"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById",
+   "options": "Link"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID",
+   "options": "Link"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "1\n0"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag",
+   "options": "link"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "ShortName"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 12:04:36.551507",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "ViolactionCategory",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

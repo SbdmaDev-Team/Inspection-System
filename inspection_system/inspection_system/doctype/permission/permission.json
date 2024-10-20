@@ -1,0 +1,170 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 09:57:02.384535",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "add",
+  "update",
+  "delete",
+  "print",
+  "show",
+  "other",
+  "search",
+  "parentid",
+  "roleid",
+  "formid",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "name1",
+  "shortname",
+  "description",
+  "guid",
+  "yearid"
+ ],
+ "fields": [
+  {
+   "fieldname": "add",
+   "fieldtype": "Data",
+   "label": "Add"
+  },
+  {
+   "fieldname": "update",
+   "fieldtype": "Data",
+   "label": "Update"
+  },
+  {
+   "fieldname": "delete",
+   "fieldtype": "Data",
+   "label": "Delete"
+  },
+  {
+   "fieldname": "print",
+   "fieldtype": "Data",
+   "label": "Print"
+  },
+  {
+   "fieldname": "show",
+   "fieldtype": "Data",
+   "label": "Show"
+  },
+  {
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Other"
+  },
+  {
+   "fieldname": "search",
+   "fieldtype": "Data",
+   "label": "Search"
+  },
+  {
+   "fieldname": "parentid",
+   "fieldtype": "Data",
+   "label": "ParentID"
+  },
+  {
+   "fieldname": "roleid",
+   "fieldtype": "Data",
+   "label": "RoleId"
+  },
+  {
+   "fieldname": "formid",
+   "fieldtype": "Data",
+   "label": "FormId"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Data",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Data",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Data",
+   "label": "CreateById"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Data",
+   "label": "UpdateById"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "ShortName"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 09:57:02.384535",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Permission",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

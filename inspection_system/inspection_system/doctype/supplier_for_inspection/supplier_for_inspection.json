@@ -1,0 +1,208 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 10:28:37.481997",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "suppliercode",
+  "supername",
+  "address",
+  "email",
+  "phonenumber",
+  "directorate",
+  "province",
+  "licensenumber",
+  "licensedate",
+  "expirydate",
+  "sitestore",
+  "status",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "name1",
+  "shortname",
+  "description",
+  "arname",
+  "arshortname",
+  "ardescription",
+  "guid",
+  "yearid",
+  "pharmaperson"
+ ],
+ "fields": [
+  {
+   "fieldname": "suppliercode",
+   "fieldtype": "Data",
+   "label": "SupplierCode"
+  },
+  {
+   "fieldname": "supername",
+   "fieldtype": "Data",
+   "label": "SuperName"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email."
+  },
+  {
+   "fieldname": "phonenumber",
+   "fieldtype": "Phone",
+   "label": "PhoneNumber"
+  },
+  {
+   "fieldname": "directorate",
+   "fieldtype": "Data",
+   "label": "Directorate"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Data",
+   "label": "province"
+  },
+  {
+   "fieldname": "licensenumber",
+   "fieldtype": "Data",
+   "label": "licenseNumber"
+  },
+  {
+   "fieldname": "licensedate",
+   "fieldtype": "Date",
+   "label": "licenseDate"
+  },
+  {
+   "fieldname": "expirydate",
+   "fieldtype": "Date",
+   "label": "ExpiryDate"
+  },
+  {
+   "fieldname": "sitestore",
+   "fieldtype": "Data",
+   "label": "SiteStore"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Data",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "ShortName"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "arname",
+   "fieldtype": "Data",
+   "label": "ArName"
+  },
+  {
+   "fieldname": "arshortname",
+   "fieldtype": "Data",
+   "label": "ArShortName"
+  },
+  {
+   "fieldname": "ardescription",
+   "fieldtype": "Data",
+   "label": "ArDescription"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId"
+  },
+  {
+   "fieldname": "pharmaperson",
+   "fieldtype": "Data",
+   "label": "PharmaPerson"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 10:28:37.481997",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Supplier for Inspection",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

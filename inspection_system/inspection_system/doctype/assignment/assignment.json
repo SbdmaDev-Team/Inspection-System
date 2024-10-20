@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 11:12:42.294011",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "importpermitid",
+  "code",
+  "assignmenttype",
+  "reasonassignment",
+  "duration",
+  "creatingdate",
+  "referenceno",
+  "uploaddate",
+  "status",
+  "notes",
+  "createat",
+  "updatebyid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "guid",
+  "yearid"
+ ],
+ "fields": [
+  {
+   "fieldname": "importpermitid",
+   "fieldtype": "Int",
+   "label": "ImportPermitId"
+  },
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "Code"
+  },
+  {
+   "fieldname": "assignmenttype",
+   "fieldtype": "Select",
+   "label": "AssignmentType",
+   "options": "1\n2\n3\n4"
+  },
+  {
+   "fieldname": "reasonassignment",
+   "fieldtype": "Data",
+   "label": "ReasonAssignment"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Date",
+   "label": "Duration"
+  },
+  {
+   "fieldname": "creatingdate",
+   "fieldtype": "Date",
+   "label": "CreatingDate"
+  },
+  {
+   "fieldname": "referenceno",
+   "fieldtype": "Int",
+   "label": "ReferenceNo"
+  },
+  {
+   "fieldname": "uploaddate",
+   "fieldtype": "Date",
+   "label": "UploadDate"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "1\n2\n3\n4\n5"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Date",
+   "label": "UpdateById"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "1\n2\n3\n4"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 11:12:42.294011",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Assignment",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

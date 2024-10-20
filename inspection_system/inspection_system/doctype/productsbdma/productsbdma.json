@@ -1,0 +1,156 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 11:43:57.371090",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "productcode",
+  "scientificname",
+  "pharmaceuticalform",
+  "cif",
+  "currency",
+  "arprductname",
+  "concentration",
+  "packaging",
+  "producttype",
+  "column_break_05w6p",
+  "status",
+  "expirydate",
+  "prductname",
+  "shortname",
+  "description",
+  "arshortname",
+  "ardescription",
+  "company"
+ ],
+ "fields": [
+  {
+   "fieldname": "productcode",
+   "fieldtype": "Data",
+   "label": "ProductCode",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cif",
+   "fieldtype": "Data",
+   "label": "CIF"
+  },
+  {
+   "fieldname": "concentration",
+   "fieldtype": "Data",
+   "label": "Concentration"
+  },
+  {
+   "fieldname": "packaging",
+   "fieldtype": "Data",
+   "label": "Packaging"
+  },
+  {
+   "fieldname": "producttype",
+   "fieldtype": "Select",
+   "label": "ProductType",
+   "options": "\u062f\u0648\u0627\u0621\n\u0645\u0633\u062a\u0644\u0632\u0645 \u0637\u0628\u064a\n\u062c\u0647\u0627\u0632 \u0637\u0628\u064a\n\u0645\u0633\u062a\u062d\u0636\u0631 \u0639\u0634\u0628\u064a"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "\u0645\u0633\u062c\u0644\n\u0645\u062c\u062f\u062f\n\u0645\u0646\u062a\u0647\u064a \u0627\u0644\u0635\u0644\u0627\u062d\u064a\u0629\n\u0645\u0648\u0642\u0641"
+  },
+  {
+   "fieldname": "expirydate",
+   "fieldtype": "Date",
+   "label": "ExpiryDate"
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "ShortName",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "arshortname",
+   "fieldtype": "Data",
+   "label": "ArShortName"
+  },
+  {
+   "fieldname": "ardescription",
+   "fieldtype": "Data",
+   "label": "ArDescription"
+  },
+  {
+   "fieldname": "arprductname",
+   "fieldtype": "Data",
+   "label": "ArPrductName"
+  },
+  {
+   "fieldname": "prductname",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PrductName",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scientificname",
+   "fieldtype": "Data",
+   "label": "ScientificName",
+   "reqd": 1
+  },
+  {
+   "fieldname": "pharmaceuticalform",
+   "fieldtype": "Data",
+   "label": "PharmaceuticalForm",
+   "reqd": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_05w6p",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-20 20:12:08.533338",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "ProductSBDMA",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

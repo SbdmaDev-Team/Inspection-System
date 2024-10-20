@@ -1,0 +1,179 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 09:26:06.462735",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "reasonforseizure",
+  "status",
+  "seizuretype",
+  "shipmenttype",
+  "invoiceno",
+  "referenceno",
+  "uploaddate",
+  "storeid",
+  "assignmentid",
+  "companyid",
+  "supplierid",
+  "portofentryid",
+  "userid",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "guid",
+  "yearid",
+  "entrytype"
+ ],
+ "fields": [
+  {
+   "fieldname": "reasonforseizure",
+   "fieldtype": "Data",
+   "label": "ReasonForSeizure"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "seizuretype",
+   "fieldtype": "Select",
+   "label": "seizureType",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "shipmenttype",
+   "fieldtype": "Select",
+   "label": "ShipmentType",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "invoiceno",
+   "fieldtype": "Int",
+   "label": "InvoiceNo"
+  },
+  {
+   "fieldname": "referenceno",
+   "fieldtype": "Int",
+   "label": "ReferenceNo"
+  },
+  {
+   "fieldname": "uploaddate",
+   "fieldtype": "Date",
+   "label": "UploadDate"
+  },
+  {
+   "fieldname": "storeid",
+   "fieldtype": "Int",
+   "label": "StoreId"
+  },
+  {
+   "fieldname": "assignmentid",
+   "fieldtype": "Int",
+   "label": "AssignmentId"
+  },
+  {
+   "fieldname": "companyid",
+   "fieldtype": "Int",
+   "label": "CompanyId"
+  },
+  {
+   "fieldname": "supplierid",
+   "fieldtype": "Int",
+   "label": "SupplierId"
+  },
+  {
+   "fieldname": "portofentryid",
+   "fieldtype": "Int",
+   "label": "PortOfEntryId"
+  },
+  {
+   "fieldname": "userid",
+   "fieldtype": "Int",
+   "label": "UserId"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Date",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId"
+  },
+  {
+   "fieldname": "entrytype",
+   "fieldtype": "Int",
+   "label": "EntryType"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 09:26:06.462735",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "SeizureProcess",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

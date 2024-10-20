@@ -1,0 +1,184 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-10-19 11:24:10.544162",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "code",
+  "origincountry",
+  "address",
+  "email",
+  "status",
+  "gmpcertificatenumber",
+  "expirydate",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "name1",
+  "shortname",
+  "description",
+  "arname",
+  "arshortname",
+  "ardescription",
+  "guid",
+  "supplierid",
+  "yearid"
+ ],
+ "fields": [
+  {
+   "fieldname": "code",
+   "fieldtype": "Data",
+   "label": "Code"
+  },
+  {
+   "fieldname": "origincountry",
+   "fieldtype": "Data",
+   "label": "OriginCountry"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "options": "Email"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "1\n0"
+  },
+  {
+   "fieldname": "gmpcertificatenumber",
+   "fieldtype": "Int",
+   "label": "GMPCertificateNumber"
+  },
+  {
+   "fieldname": "expirydate",
+   "fieldtype": "Date",
+   "label": "ExpiryDate"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Date",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "shortname",
+   "fieldtype": "Data",
+   "label": "ShortName"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description"
+  },
+  {
+   "fieldname": "arname",
+   "fieldtype": "Data",
+   "label": "ArName"
+  },
+  {
+   "fieldname": "arshortname",
+   "fieldtype": "Data",
+   "label": "ArShortName"
+  },
+  {
+   "fieldname": "ardescription",
+   "fieldtype": "Data",
+   "label": "ArDescription"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID",
+   "options": "Link"
+  },
+  {
+   "fieldname": "supplierid",
+   "fieldtype": "Int",
+   "label": "SupplierId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId",
+   "options": " "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 20:13:58.361122",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "CompanySBDMA",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

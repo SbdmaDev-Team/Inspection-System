@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 11:28:02.937737",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "unitprice",
+  "state",
+  "seizureprocessid",
+  "productid",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "companyid",
+  "guid",
+  "yearid"
+ ],
+ "fields": [
+  {
+   "fieldname": "unitprice",
+   "fieldtype": "Currency",
+   "label": "UnitPrice"
+  },
+  {
+   "fieldname": "state",
+   "fieldtype": "Select",
+   "label": "State",
+   "options": "1\n2"
+  },
+  {
+   "fieldname": "seizureprocessid",
+   "fieldtype": "Int",
+   "label": "SeizureProcessId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "productid",
+   "fieldtype": "Int",
+   "label": "ProductId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Date",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById",
+   "options": "Link"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById",
+   "options": "Link"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "IsDeleted",
+   "options": "1\n2"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag",
+   "options": "Link"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId",
+   "options": "Link"
+  },
+  {
+   "fieldname": "companyid",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "label": "CompanyId",
+   "options": "CompanySBDMA"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-19 19:33:17.897471",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "SeizureProduct",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
