@@ -7,109 +7,46 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "assignmentid",
-  "supplierid",
-  "personid",
-  "personcode",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "guid",
-  "yearid"
+  "supplier",
+  "person",
+  "personcode"
  ],
  "fields": [
   {
-   "fieldname": "assignmentid",
-   "fieldtype": "Int",
-   "label": "AssignmentId"
-  },
-  {
-   "fieldname": "supplierid",
-   "fieldtype": "Int",
-   "label": "SupplierId"
-  },
-  {
-   "fieldname": "personid",
-   "fieldtype": "Int",
-   "label": "PersonId"
-  },
-  {
    "fieldname": "personcode",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "PersonCode"
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Supplier",
+   "options": "Supplier"
   },
   {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "1\n2\n3"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId"
-  },
-  {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId"
+   "fieldname": "person",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Person",
+   "options": "Persons",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2024-10-19 11:15:07.898504",
+ "modified": "2024-10-22 18:16:06.704637",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "AssignmentPerson",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

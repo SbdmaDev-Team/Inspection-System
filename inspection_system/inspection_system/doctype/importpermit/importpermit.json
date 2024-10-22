@@ -21,6 +21,7 @@
   "flag",
   "serialid",
   "status",
+  "section_break_jbrkg",
   "importpermitdetails"
  ],
  "fields": [
@@ -97,11 +98,15 @@
   {
    "fieldname": "column_break_a2zzj",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_jbrkg",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-20 20:14:04.843048",
+ "modified": "2024-10-22 17:50:58.741744",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "ImportPermit",
