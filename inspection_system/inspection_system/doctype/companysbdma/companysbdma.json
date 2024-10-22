@@ -9,28 +9,20 @@
  "engine": "InnoDB",
  "field_order": [
   "code",
-  "origincountry",
-  "address",
-  "email",
-  "status",
-  "gmpcertificatenumber",
-  "expirydate",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "isdeleted",
-  "flag",
-  "serialid",
   "name1",
   "shortname",
   "description",
+  "origincountry",
+  "email",
+  "gmpcertificatenumber",
+  "column_break_wckq",
+  "address",
   "arname",
   "arshortname",
   "ardescription",
-  "guid",
-  "supplierid",
-  "yearid"
+  "supplier",
+  "status",
+  "expirydate"
  ],
  "fields": [
   {
@@ -40,8 +32,9 @@
   },
   {
    "fieldname": "origincountry",
-   "fieldtype": "Data",
-   "label": "OriginCountry"
+   "fieldtype": "Link",
+   "label": "OriginCountry",
+   "options": "Currency"
   },
   {
    "fieldname": "address",
@@ -71,45 +64,11 @@
    "label": "ExpiryDate"
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
-  },
-  {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "True\nFalse"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId"
-  },
-  {
    "fieldname": "name1",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Name",
+   "reqd": 1,
    "unique": 1
   },
   {
@@ -138,27 +97,19 @@
    "label": "ArDescription"
   },
   {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID",
-   "options": "Link"
+   "fieldname": "column_break_wckq",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "supplierid",
-   "fieldtype": "Int",
-   "label": "SupplierId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId",
-   "options": " "
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier for Inspection"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-19 20:13:58.361122",
+ "modified": "2024-10-22 21:13:15.967721",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "CompanySBDMA",

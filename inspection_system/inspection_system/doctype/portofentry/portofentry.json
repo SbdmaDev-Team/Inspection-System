@@ -8,10 +8,11 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "address",
   "nameport",
   "shortname",
-  "description"
+  "column_break_xnts",
+  "description",
+  "address"
  ],
  "fields": [
   {
@@ -32,15 +33,22 @@
   {
    "fieldname": "nameport",
    "fieldtype": "Data",
+   "in_filter": 1,
    "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Name",
    "reqd": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "column_break_xnts",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-20 20:01:41.174797",
+ "modified": "2024-10-22 21:16:20.510556",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "PortOfEntry",

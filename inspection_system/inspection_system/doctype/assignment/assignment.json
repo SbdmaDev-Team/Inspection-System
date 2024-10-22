@@ -63,7 +63,8 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "1\n2\n3\n4\n5"
+   "options": "0\n1\n2",
+   "read_only": 1
   },
   {
    "fieldname": "notes",
@@ -83,7 +84,8 @@
   },
   {
    "fieldname": "section_break_eqy74",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Persons"
   },
   {
    "fieldname": "assignmentperson",
@@ -94,7 +96,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-22 18:31:58.997116",
+ "modified": "2024-10-22 21:38:26.941149",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Assignment",

@@ -11,27 +11,9 @@
   "result",
   "recommand",
   "notes",
-  "assignmentid",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "isclose",
-  "closedate",
-  "issubmit",
-  "submitdate",
-  "isloced",
-  "loceddate",
-  "isprint",
-  "printdate",
-  "printcount",
-  "printuser",
-  "guid",
-  "yearid",
+  "column_break_enzv",
   "conditionstore",
+  "assignmentid",
   "supplierid"
  ],
  "fields": [
@@ -61,106 +43,6 @@
    "label": "AssignmentId"
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
-  },
-  {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "1\n2\n3"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId"
-  },
-  {
-   "fieldname": "isclose",
-   "fieldtype": "Select",
-   "label": "IsClose",
-   "options": "1\n0"
-  },
-  {
-   "fieldname": "closedate",
-   "fieldtype": "Date",
-   "label": "CloseDate"
-  },
-  {
-   "fieldname": "issubmit",
-   "fieldtype": "Select",
-   "label": "IsSubmit",
-   "options": "True\nFalse"
-  },
-  {
-   "fieldname": "submitdate",
-   "fieldtype": "Date",
-   "label": "SubmitDate"
-  },
-  {
-   "fieldname": "isloced",
-   "fieldtype": "Select",
-   "label": "IsLoced",
-   "options": "1\n0"
-  },
-  {
-   "fieldname": "loceddate",
-   "fieldtype": "Date",
-   "label": "LocedDate"
-  },
-  {
-   "fieldname": "isprint",
-   "fieldtype": "Select",
-   "label": "IsPrint",
-   "options": "1\n0"
-  },
-  {
-   "fieldname": "printdate",
-   "fieldtype": "Date",
-   "label": "PrintDate"
-  },
-  {
-   "fieldname": "printcount",
-   "fieldtype": "Float",
-   "label": "PrintCount"
-  },
-  {
-   "fieldname": "printuser",
-   "fieldtype": "Data",
-   "label": "PrintUser"
-  },
-  {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId"
-  },
-  {
    "fieldname": "conditionstore",
    "fieldtype": "Data",
    "label": "ConditionStore"
@@ -170,11 +52,15 @@
    "fieldtype": "Int",
    "label": "SupplierId",
    "options": "link"
+  },
+  {
+   "fieldname": "column_break_enzv",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-19 11:19:31.061629",
+ "modified": "2024-10-22 21:52:40.991491",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "AssignmentReport",

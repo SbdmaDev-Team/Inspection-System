@@ -7,8 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "assignmentreportid",
-  "violationtypeid",
+  "assignmentreport",
   "violationdetails",
   "violationdate",
   "fineamount",
@@ -16,34 +15,16 @@
   "datevoucherfine",
   "finevouchernumber",
   "paymentstatus",
+  "column_break_loqw",
+  "violationtype",
   "notes",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "guid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "yearid",
-  "companyid",
-  "currencyid",
-  "productid",
-  "supplierid",
-  "violactioncategoryid"
+  "company",
+  "currency",
+  "product",
+  "supplier",
+  "violactioncategory"
  ],
  "fields": [
-  {
-   "fieldname": "assignmentreportid",
-   "fieldtype": "Int",
-   "label": "AssignmentReportId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "violationtypeid",
-   "fieldtype": "Int",
-   "label": "ViolationTypeId"
-  },
   {
    "fieldname": "violationdetails",
    "fieldtype": "Data",
@@ -86,89 +67,55 @@
    "label": "Notes"
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
+   "fieldname": "column_break_loqw",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "CompanySBDMA"
   },
   {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById"
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
   },
   {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById",
-   "options": "Link"
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "label": "Product",
+   "options": "ProductSBDMA"
   },
   {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID",
-   "options": "Link"
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier for Inspection"
   },
   {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "1\n0"
+   "fieldname": "assignmentreport",
+   "fieldtype": "Link",
+   "label": "AssignmentReport",
+   "options": "AssignmentReport"
   },
   {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag"
+   "fieldname": "violationtype",
+   "fieldtype": "Link",
+   "label": "ViolationType",
+   "options": "ViolationType"
   },
   {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "companyid",
-   "fieldtype": "Int",
-   "label": "CompanyId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "currencyid",
-   "fieldtype": "Int",
-   "label": "CurrencyId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "productid",
-   "fieldtype": "Int",
-   "label": "ProductId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "supplierid",
-   "fieldtype": "Int",
-   "label": "SupplierId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "violactioncategoryid",
-   "fieldtype": "Int",
-   "label": "ViolactionCategoryId",
-   "options": "Link"
+   "fieldname": "violactioncategory",
+   "fieldtype": "Link",
+   "label": "ViolactionCategory",
+   "options": "ViolactionCategory"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-19 11:57:42.715952",
+ "modified": "2024-10-22 21:49:54.833474",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Violation",

@@ -8,23 +8,24 @@
  "engine": "InnoDB",
  "field_order": [
   "productcode",
+  "prductname",
+  "shortname",
+  "description",
   "scientificname",
   "pharmaceuticalform",
-  "cif",
-  "currency",
-  "arprductname",
   "concentration",
   "packaging",
   "producttype",
   "column_break_05w6p",
   "status",
-  "expirydate",
-  "prductname",
-  "shortname",
-  "description",
+  "arprductname",
   "arshortname",
   "ardescription",
-  "company"
+  "expirydate",
+  "company",
+  "currency",
+  "cif",
+  "supplier"
  ],
  "fields": [
   {
@@ -127,11 +128,17 @@
   {
    "fieldname": "column_break_05w6p",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier for Inspection"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-20 20:12:08.533338",
+ "modified": "2024-10-22 21:05:40.288694",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "ProductSBDMA",

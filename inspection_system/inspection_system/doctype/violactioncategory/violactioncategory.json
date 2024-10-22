@@ -7,78 +7,12 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "guid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "yearid",
-  "name1",
+  "nameviolactioncategory",
   "shortname",
+  "column_break_zqxn",
   "description"
  ],
  "fields": [
-  {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
-  },
-  {
-   "fieldname": "updateat",
-   "fieldtype": "Int",
-   "label": "UpdateAt",
-   "options": "Link"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById",
-   "options": "Link"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById",
-   "options": "Link"
-  },
-  {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID",
-   "options": "Link"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "1\n0"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag",
-   "options": "link"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "label": "Name"
-  },
   {
    "fieldname": "shortname",
    "fieldtype": "Data",
@@ -88,11 +22,24 @@
    "fieldname": "description",
    "fieldtype": "Data",
    "label": "Description"
+  },
+  {
+   "fieldname": "nameviolactioncategory",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zqxn",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-19 12:04:36.551507",
+ "modified": "2024-10-22 21:50:39.509186",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "ViolactionCategory",
