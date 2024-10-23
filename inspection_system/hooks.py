@@ -199,3 +199,28 @@ app_license = "MIT"
 # auth_hooks = [
 #	"inspection_system.auth.validate"
 # ]
+fixtures = [
+    {
+        "dt": "Workflow",
+        "filters":{
+            "name": "Assignment Workflow"
+        }
+    },
+    {
+        "dt": "Workflow State",
+        "filters":[
+            [
+            "name","in",("Reviewed","In Progress","Pending Approval","Returned","On Hold","Created","In Review","Complated","Canceled")
+            ]
+        ]        
+    },
+    {
+        "dt": "Workflow Action Master",
+        "filters":[
+            [
+            "name","in",("Holded","ReCreated","Approve Init","Return","Save Init")
+            ]
+        ]        
+    }
+
+]

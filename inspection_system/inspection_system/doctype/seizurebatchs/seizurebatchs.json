@@ -8,20 +8,11 @@
  "engine": "InnoDB",
  "field_order": [
   "seizureproductid",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "guid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "yearid",
   "qty",
   "bqty",
-  "licenseno",
   "batchnumber",
   "productiondate",
+  "column_break_mavn",
   "expirydate",
   "notes",
   "amountreal",
@@ -36,56 +27,6 @@
    "options": "Link"
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
-  },
-  {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById",
-   "options": "Link"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById",
-   "options": "Link"
-  },
-  {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "1\n0"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId",
-   "options": "Link"
-  },
-  {
    "fieldname": "qty",
    "fieldtype": "Data",
    "label": "Qty"
@@ -94,11 +35,6 @@
    "fieldname": "bqty",
    "fieldtype": "Data",
    "label": "Bqty"
-  },
-  {
-   "fieldname": "licenseno",
-   "fieldtype": "Int",
-   "label": "LicenseNo"
   },
   {
    "fieldname": "batchnumber",
@@ -136,11 +72,15 @@
    "fieldtype": "Int",
    "label": "SampleLabTestId",
    "options": "Link"
+  },
+  {
+   "fieldname": "column_break_mavn",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-19 11:32:31.871150",
+ "modified": "2024-10-22 22:24:36.004191",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "SeizureBatchs",

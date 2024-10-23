@@ -7,29 +7,20 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "reasonforseizure",
-  "status",
-  "seizuretype",
+  "assignment",
+  "supplier",
+  "uploaddate",
+  "store",
+  "company",
+  "referenceno",
+  "column_break_tdgi",
+  "portofentry",
   "shipmenttype",
   "invoiceno",
-  "referenceno",
-  "uploaddate",
-  "storeid",
-  "assignmentid",
-  "companyid",
-  "supplierid",
-  "portofentryid",
-  "userid",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "guid",
-  "yearid",
-  "entrytype"
+  "reasonforseizure",
+  "status",
+  "section_break_gahi",
+  "seizureproduct"
  ],
  "fields": [
   {
@@ -41,19 +32,13 @@
    "fieldname": "status",
    "fieldtype": "Select",
    "label": "Status",
-   "options": "True\nFalse"
-  },
-  {
-   "fieldname": "seizuretype",
-   "fieldtype": "Select",
-   "label": "seizureType",
-   "options": "True\nFalse"
+   "options": "0\n1"
   },
   {
    "fieldname": "shipmenttype",
    "fieldtype": "Select",
    "label": "ShipmentType",
-   "options": "True\nFalse"
+   "options": "\u0627\u062f\u0648\u064a\u0629\n\u0645\u0633\u062a\u0644\u0632\u0645\u0627\u062a \u0637\u0628\u064a\u0629\n\u0627\u062c\u0647\u0632\u0629 \u0637\u0628\u064a\u0629"
   },
   {
    "fieldname": "invoiceno",
@@ -71,90 +56,53 @@
    "label": "UploadDate"
   },
   {
-   "fieldname": "storeid",
-   "fieldtype": "Int",
-   "label": "StoreId"
+   "fieldname": "assignment",
+   "fieldtype": "Link",
+   "label": "Assignment",
+   "options": "Assignment"
   },
   {
-   "fieldname": "assignmentid",
-   "fieldtype": "Int",
-   "label": "AssignmentId"
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier SBDMA"
   },
   {
-   "fieldname": "companyid",
-   "fieldtype": "Int",
-   "label": "CompanyId"
+   "fieldname": "store",
+   "fieldtype": "Link",
+   "label": "Store",
+   "options": "Store"
   },
   {
-   "fieldname": "supplierid",
-   "fieldtype": "Int",
-   "label": "SupplierId"
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "CompanySBDMA"
   },
   {
-   "fieldname": "portofentryid",
-   "fieldtype": "Int",
-   "label": "PortOfEntryId"
+   "fieldname": "column_break_tdgi",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "userid",
-   "fieldtype": "Int",
-   "label": "UserId"
+   "fieldname": "portofentry",
+   "fieldtype": "Link",
+   "label": "PortOfEntry",
+   "options": "PortOfEntry"
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
+   "fieldname": "section_break_gahi",
+   "fieldtype": "Section Break"
   },
   {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "True\nFalse"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId"
-  },
-  {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId"
-  },
-  {
-   "fieldname": "entrytype",
-   "fieldtype": "Int",
-   "label": "EntryType"
+   "fieldname": "seizureproduct",
+   "fieldtype": "Table",
+   "label": "Products",
+   "options": "SeizureProduct"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-19 09:26:06.462735",
+ "modified": "2024-10-23 00:28:33.102781",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "SeizureProcess",

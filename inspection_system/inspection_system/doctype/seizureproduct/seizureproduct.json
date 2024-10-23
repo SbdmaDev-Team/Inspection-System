@@ -9,21 +9,13 @@
  "field_order": [
   "unitprice",
   "state",
-  "seizureprocessid",
-  "productid",
-  "createat",
-  "updateat",
-  "createbyid",
-  "updatebyid",
-  "isdeleted",
-  "flag",
-  "serialid",
-  "companyid",
-  "guid",
-  "yearid"
+  "column_break_vpfa",
+  "product",
+  "company"
  ],
  "fields": [
   {
+   "fetch_from": "product.cif",
    "fieldname": "unitprice",
    "fieldtype": "Currency",
    "label": "UnitPrice"
@@ -35,96 +27,36 @@
    "options": "1\n2"
   },
   {
-   "fieldname": "seizureprocessid",
-   "fieldtype": "Int",
-   "label": "SeizureProcessId",
-   "options": "Link"
+   "fieldname": "column_break_vpfa",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "productid",
-   "fieldtype": "Int",
-   "label": "ProductId",
-   "options": "Link"
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product",
+   "options": "ProductSBDMA",
+   "reqd": 1
   },
   {
-   "fieldname": "createat",
-   "fieldtype": "Date",
-   "label": "CreateAt"
-  },
-  {
-   "fieldname": "updateat",
-   "fieldtype": "Date",
-   "label": "UpdateAt"
-  },
-  {
-   "fieldname": "createbyid",
-   "fieldtype": "Int",
-   "label": "CreateById",
-   "options": "Link"
-  },
-  {
-   "fieldname": "updatebyid",
-   "fieldtype": "Int",
-   "label": "UpdateById",
-   "options": "Link"
-  },
-  {
-   "fieldname": "isdeleted",
-   "fieldtype": "Select",
-   "label": "IsDeleted",
-   "options": "1\n2"
-  },
-  {
-   "fieldname": "flag",
-   "fieldtype": "Int",
-   "label": "flag",
-   "options": "Link"
-  },
-  {
-   "fieldname": "serialid",
-   "fieldtype": "Int",
-   "label": "SerialId",
-   "options": "Link"
-  },
-  {
-   "fieldname": "companyid",
+   "fieldname": "company",
    "fieldtype": "Link",
    "in_filter": 1,
-   "label": "CompanyId",
-   "options": "CompanySBDMA"
-  },
-  {
-   "fieldname": "guid",
-   "fieldtype": "Int",
-   "label": "GUID"
-  },
-  {
-   "fieldname": "yearid",
-   "fieldtype": "Int",
-   "label": "YearId"
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "CompanySBDMA",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "istable": 1,
  "links": [],
- "modified": "2024-10-19 19:33:17.897471",
+ "modified": "2024-10-22 22:27:33.969381",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "SeizureProduct",
  "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
+ "permissions": [],
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []

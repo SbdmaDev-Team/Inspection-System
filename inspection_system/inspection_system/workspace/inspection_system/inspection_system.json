@@ -1,6 +1,11 @@
 {
- "charts": [],
- "content": "[{\"id\":\"fqqTnxy665\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Inspection System</span>\",\"col\":12}},{\"id\":\"DXgUQMKIu-\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"_HxbTknQ97\",\"type\":\"card\",\"data\":{\"card_name\":\"Transaction\",\"col\":4}},{\"id\":\"V81Co7UApX\",\"type\":\"card\",\"data\":{\"card_name\":\"Child Data\",\"col\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Inspection",
+   "label": "Chart Assignment"
+  }
+ ],
+ "content": "[{\"id\":\"sAyecZvbYe\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Product SBDMA\",\"col\":4}},{\"id\":\"ATXXYB0DW5\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Company SBDMA\",\"col\":4}},{\"id\":\"tLx_jpz9Y-\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Supplier SBDMA\",\"col\":4}},{\"id\":\"5knL2bVaQn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"DXgUQMKIu-\",\"type\":\"card\",\"data\":{\"card_name\":\"Master Data\",\"col\":4}},{\"id\":\"_HxbTknQ97\",\"type\":\"card\",\"data\":{\"card_name\":\"Transaction\",\"col\":4}},{\"id\":\"V81Co7UApX\",\"type\":\"card\",\"data\":{\"card_name\":\"Details Data\",\"col\":4}},{\"id\":\"CGYGjjDoGn\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"09symrTUiy\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Chart Assignment\",\"col\":12}}]",
  "creation": "2024-10-19 16:56:12.662253",
  "custom_blocks": [],
  "docstatus": 0,
@@ -15,8 +20,127 @@
   {
    "hidden": 0,
    "is_query_report": 0,
+   "label": "Master Data",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ProductSBDMA",
+   "link_count": 0,
+   "link_to": "ProductSBDMA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "CompanySBDMA",
+   "link_count": 0,
+   "link_to": "CompanySBDMA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Supplier SBDMA",
+   "link_count": 0,
+   "link_to": "Supplier SBDMA",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Person",
+   "link_count": 0,
+   "link_to": "Person",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Violation",
+   "link_count": 0,
+   "link_to": "Violation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Details Data",
+   "link_count": 5,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "PharmaceuticalForm",
+   "link_count": 0,
+   "link_to": "PharmaceuticalForm",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ScientificName",
+   "link_count": 0,
+   "link_to": "ScientificName",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ViolationType",
+   "link_count": 0,
+   "link_to": "ViolationType",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ViolactionCategory",
+   "link_count": 0,
+   "link_to": "ViolactionCategory",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Store SBDMA",
+   "link_count": 0,
+   "link_to": "Store",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
    "label": "Transaction",
-   "link_count": 3,
+   "link_count": 4,
+   "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
   },
@@ -53,181 +177,38 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Child Data",
-   "link_count": 6,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "AssignmentPerson",
+   "label": "Assignment Report",
    "link_count": 0,
-   "link_to": "AssignmentPerson",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "ImportPermitDetails",
-   "link_count": 0,
-   "link_to": "ImportPermitDetails",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "ImportPermitBatchs",
-   "link_count": 0,
-   "link_to": "ImportPermitBatchs",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "SeizureProduct",
-   "link_count": 0,
-   "link_to": "SeizureProduct",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "SeizureBatchs",
-   "link_count": 0,
-   "link_to": "SeizureBatchs",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "ViolactionCategory",
-   "link_count": 0,
-   "link_to": "ViolactionCategory",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Master Data",
-   "link_count": 9,
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "CompanySBDMA",
-   "link_count": 0,
-   "link_to": "CompanySBDMA",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "ProductSBDMA",
-   "link_count": 0,
-   "link_to": "ProductSBDMA",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Persons",
-   "link_count": 0,
-   "link_to": "Persons",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Store",
-   "link_count": 0,
-   "link_to": "Store",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Violation",
-   "link_count": 0,
-   "link_to": "Violation",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Supplier for Inspection",
-   "link_count": 0,
-   "link_to": "Supplier for Inspection",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "PortOfEntry",
-   "link_count": 0,
-   "link_to": "PortOfEntry",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "PharmaceuticalForm",
-   "link_count": 0,
-   "link_to": "PharmaceuticalForm",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "ScientificName",
-   "link_count": 0,
-   "link_to": "ScientificName",
+   "link_to": "AssignmentReport",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-10-22 19:36:24.701623",
+ "modified": "2024-10-23 02:04:30.124324",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Inspection System",
- "number_cards": [],
+ "number_cards": [
+  {
+   "label": "Product SBDMA",
+   "number_card_name": "Product SBDMA"
+  },
+  {
+   "label": "Company SBDMA",
+   "number_card_name": "Inspection"
+  },
+  {
+   "label": "Supplier SBDMA",
+   "number_card_name": "Supplier"
+  }
+ ],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 41.0,
+ "sequence_id": 1.0,
  "shortcuts": [],
  "title": "Inspection System"
 }

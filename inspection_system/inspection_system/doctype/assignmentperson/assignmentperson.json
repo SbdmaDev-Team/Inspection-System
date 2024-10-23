@@ -8,16 +8,10 @@
  "engine": "InnoDB",
  "field_order": [
   "supplier",
-  "person",
-  "personcode"
+  "column_break_ents",
+  "person"
  ],
  "fields": [
-  {
-   "fieldname": "personcode",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "PersonCode"
-  },
   {
    "fieldname": "supplier",
    "fieldtype": "Link",
@@ -25,7 +19,7 @@
    "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Supplier",
-   "options": "Supplier"
+   "options": "Supplier SBDMA"
   },
   {
    "fieldname": "person",
@@ -34,14 +28,18 @@
    "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Person",
-   "options": "Persons",
+   "options": "Person",
    "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ents",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-22 18:16:06.704637",
+ "modified": "2024-10-23 03:01:44.192211",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "AssignmentPerson",

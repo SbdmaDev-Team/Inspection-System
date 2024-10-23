@@ -1,40 +1,45 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "COM.#####",
- "creation": "2024-10-19 11:24:10.544162",
+ "autoname": "SUP.#####",
+ "creation": "2024-10-19 10:28:37.481997",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "code",
-  "namecompany",
+  "suppliercode",
+  "namesupplier",
   "shortname",
   "description",
-  "origincountry",
+  "supername",
   "email",
-  "gmpcertificatenumber",
-  "column_break_wckq",
+  "phonenumber",
+  "province",
+  "sitestore",
+  "pharmaperson",
+  "column_break_wqsh",
   "address",
   "arname",
   "arshortname",
   "ardescription",
-  "supplier",
-  "status",
-  "expirydate"
+  "directorate",
+  "licensenumber",
+  "licensedate",
+  "expirydate",
+  "status"
  ],
  "fields": [
   {
-   "fieldname": "code",
+   "fieldname": "suppliercode",
    "fieldtype": "Data",
-   "label": "Code"
+   "label": "SupplierCode",
+   "reqd": 1
   },
   {
-   "fieldname": "origincountry",
-   "fieldtype": "Link",
-   "label": "OriginCountry",
-   "options": "Country",
+   "fieldname": "supername",
+   "fieldtype": "Data",
+   "label": "SuperName",
    "reqd": 1
   },
   {
@@ -46,23 +51,48 @@
    "fieldname": "email",
    "fieldtype": "Data",
    "label": "Email",
-   "options": "Email"
+   "options": "Email."
   },
   {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "1\n0"
+   "fieldname": "phonenumber",
+   "fieldtype": "Phone",
+   "label": "PhoneNumber"
   },
   {
-   "fieldname": "gmpcertificatenumber",
-   "fieldtype": "Int",
-   "label": "GMPCertificateNumber"
+   "fieldname": "directorate",
+   "fieldtype": "Data",
+   "label": "Directorate"
+  },
+  {
+   "fieldname": "province",
+   "fieldtype": "Data",
+   "label": "province"
+  },
+  {
+   "fieldname": "licensenumber",
+   "fieldtype": "Data",
+   "label": "licenseNumber"
+  },
+  {
+   "fieldname": "licensedate",
+   "fieldtype": "Date",
+   "label": "licenseDate"
   },
   {
    "fieldname": "expirydate",
    "fieldtype": "Date",
    "label": "ExpiryDate"
+  },
+  {
+   "fieldname": "sitestore",
+   "fieldtype": "Data",
+   "label": "SiteStore"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "True\nFalse"
   },
   {
    "fieldname": "shortname",
@@ -91,31 +121,32 @@
    "label": "ArDescription"
   },
   {
-   "fieldname": "column_break_wckq",
+   "fieldname": "pharmaperson",
+   "fieldtype": "Data",
+   "label": "PharmaPerson"
+  },
+  {
+   "fieldname": "column_break_wqsh",
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "supplier",
-   "fieldtype": "Link",
-   "label": "Supplier",
-   "options": "Supplier SBDMA"
-  },
-  {
-   "fieldname": "namecompany",
+   "fieldname": "namesupplier",
    "fieldtype": "Data",
+   "in_filter": 1,
    "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
    "label": "Name",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-23 02:02:00.864021",
+ "modified": "2024-10-23 02:03:37.046969",
  "modified_by": "Administrator",
  "module": "Inspection System",
- "name": "CompanySBDMA",
- "naming_rule": "By fieldname",
+ "name": "Supplier SBDMA",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

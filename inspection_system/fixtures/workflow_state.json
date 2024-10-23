@@ -1,0 +1,83 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:56:34.612220",
+  "name": "Reviewed",
+  "style": "Success",
+  "workflow_state_name": "Reviewed"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:39:06.227948",
+  "name": "Created",
+  "style": "Inverse",
+  "workflow_state_name": "Created"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:38:51.095745",
+  "name": "In Review",
+  "style": "Success",
+  "workflow_state_name": "In Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:39:44.866630",
+  "name": "Returned",
+  "style": "Warning",
+  "workflow_state_name": "Returned"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:38:01.958192",
+  "name": "Canceled",
+  "style": "Danger",
+  "workflow_state_name": "Canceled"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:38:21.964815",
+  "name": "Complated",
+  "style": "Primary",
+  "workflow_state_name": "Complated"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:39:53.910790",
+  "name": "Pending Approval",
+  "style": "Success",
+  "workflow_state_name": "Pending Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:39:29.514241",
+  "name": "On Hold",
+  "style": "Warning",
+  "workflow_state_name": "On Hold"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-23 02:55:35.808801",
+  "name": "In Progress",
+  "style": "Warning",
+  "workflow_state_name": "In Progress"
+ }
+]

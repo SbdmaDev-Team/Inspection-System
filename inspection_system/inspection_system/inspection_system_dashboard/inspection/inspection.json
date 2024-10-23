@@ -1,0 +1,28 @@
+{
+ "cards": [
+  {
+   "card": "Inspection"
+  },
+  {
+   "card": "Product SBDMA"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Inspection",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-10-23 01:41:36.297650",
+ "dashboard_name": "Inspection",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-10-23 01:47:15.644304",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Inspection",
+ "owner": "Administrator"
+}

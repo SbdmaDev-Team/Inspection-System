@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "PRO-.#####",
  "creation": "2024-10-19 11:43:57.371090",
  "default_view": "List",
  "doctype": "DocType",
@@ -101,14 +102,16 @@
   },
   {
    "fieldname": "scientificname",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "ScientificName",
+   "options": "ScientificName",
    "reqd": 1
   },
   {
    "fieldname": "pharmaceuticalform",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "label": "PharmaceuticalForm",
+   "options": "PharmaceuticalForm",
    "reqd": 1
   },
   {
@@ -122,7 +125,7 @@
    "fieldname": "company",
    "fieldtype": "Link",
    "label": "Company",
-   "options": "Company",
+   "options": "CompanySBDMA",
    "reqd": 1
   },
   {
@@ -133,15 +136,16 @@
    "fieldname": "supplier",
    "fieldtype": "Link",
    "label": "Supplier",
-   "options": "Supplier for Inspection"
+   "options": "Supplier SBDMA"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-22 21:05:40.288694",
+ "modified": "2024-10-23 03:14:35.962330",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "ProductSBDMA",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
