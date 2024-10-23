@@ -28,37 +28,37 @@
   {
    "fieldname": "violationdetails",
    "fieldtype": "Data",
-   "label": "ViolationDetails"
+   "label": "Violation Details"
   },
   {
    "fieldname": "violationdate",
    "fieldtype": "Date",
-   "label": "ViolationDate"
+   "label": "Violation Date"
   },
   {
    "fieldname": "fineamount",
    "fieldtype": "Data",
-   "label": "FineAmount"
+   "label": "Fine Amount"
   },
   {
    "fieldname": "fineimpositiondate",
    "fieldtype": "Date",
-   "label": "FineImpositionDate"
+   "label": "FineI position Date"
   },
   {
    "fieldname": "datevoucherfine",
    "fieldtype": "Date",
-   "label": "DateVoucherFine"
+   "label": "Date Voucher Fine"
   },
   {
    "fieldname": "finevouchernumber",
    "fieldtype": "Int",
-   "label": "FineVoucherNumber"
+   "label": "Fine Voucher Number"
   },
   {
    "fieldname": "paymentstatus",
    "fieldtype": "Select",
-   "label": "PaymentStatus",
+   "label": "Payment Status",
    "options": "1\n0"
   },
   {
@@ -74,7 +74,7 @@
    "fieldname": "company",
    "fieldtype": "Link",
    "label": "Company",
-   "options": "CompanySBDMA"
+   "options": "Company SBDMA"
   },
   {
    "fieldname": "currency",
@@ -86,7 +86,7 @@
    "fieldname": "product",
    "fieldtype": "Link",
    "label": "Product",
-   "options": "ProductSBDMA"
+   "options": "Product SBDMA"
   },
   {
    "fieldname": "supplier",
@@ -97,25 +97,25 @@
   {
    "fieldname": "assignmentreport",
    "fieldtype": "Link",
-   "label": "AssignmentReport",
-   "options": "AssignmentReport"
+   "label": "Assignment Report",
+   "options": "Assignment Report"
   },
   {
    "fieldname": "violationtype",
    "fieldtype": "Link",
-   "label": "ViolationType",
-   "options": "ViolationType"
+   "label": "Violation Type",
+   "options": "Violation Type"
   },
   {
    "fieldname": "violactioncategory",
    "fieldtype": "Link",
-   "label": "ViolactionCategory",
-   "options": "ViolactionCategory"
+   "label": "Violaction Category",
+   "options": "Violaction Category"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-23 00:28:32.744783",
+ "modified": "2024-10-23 18:39:22.834167",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Violation",

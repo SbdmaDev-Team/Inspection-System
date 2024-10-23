@@ -71,12 +71,12 @@
   {
    "fieldname": "licensenumber",
    "fieldtype": "Data",
-   "label": "licenseNumber"
+   "label": "License Number"
   },
   {
    "fieldname": "licensedate",
    "fieldtype": "Date",
-   "label": "licenseDate"
+   "label": "License Date"
   },
   {
    "fieldname": "expirydate",
@@ -86,7 +86,7 @@
   {
    "fieldname": "sitestore",
    "fieldtype": "Data",
-   "label": "SiteStore"
+   "label": "Site Store"
   },
   {
    "fieldname": "status",
@@ -113,7 +113,7 @@
   {
    "fieldname": "arshortname",
    "fieldtype": "Data",
-   "label": "ArShortName"
+   "label": "ArShort Name"
   },
   {
    "fieldname": "ardescription",
@@ -123,7 +123,7 @@
   {
    "fieldname": "pharmaperson",
    "fieldtype": "Data",
-   "label": "PharmaPerson"
+   "label": "Pharma Person"
   },
   {
    "fieldname": "column_break_wqsh",
@@ -142,7 +142,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-23 02:03:37.046969",
+ "modified": "2024-10-23 18:41:30.359833",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Supplier SBDMA",

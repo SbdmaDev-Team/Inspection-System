@@ -1,0 +1,127 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 09:26:06.462735",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "assignment",
+  "supplier",
+  "uploaddate",
+  "store",
+  "company",
+  "referenceno",
+  "column_break_tdgi",
+  "portofentry",
+  "shipmenttype",
+  "invoiceno",
+  "reasonforseizure",
+  "status",
+  "section_break_gahi",
+  "seizureproduct"
+ ],
+ "fields": [
+  {
+   "fieldname": "reasonforseizure",
+   "fieldtype": "Data",
+   "label": "Reason For Seizure"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "0\n1"
+  },
+  {
+   "fieldname": "shipmenttype",
+   "fieldtype": "Select",
+   "label": "Shipment Type",
+   "options": "\u0627\u062f\u0648\u064a\u0629\n\u0645\u0633\u062a\u0644\u0632\u0645\u0627\u062a \u0637\u0628\u064a\u0629\n\u0627\u062c\u0647\u0632\u0629 \u0637\u0628\u064a\u0629"
+  },
+  {
+   "fieldname": "invoiceno",
+   "fieldtype": "Int",
+   "label": "Invoice No"
+  },
+  {
+   "fieldname": "referenceno",
+   "fieldtype": "Int",
+   "label": "Reference No"
+  },
+  {
+   "fieldname": "uploaddate",
+   "fieldtype": "Date",
+   "label": "Upload Date"
+  },
+  {
+   "fieldname": "assignment",
+   "fieldtype": "Link",
+   "label": "Assignment",
+   "options": "Assignment"
+  },
+  {
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier SBDMA"
+  },
+  {
+   "fieldname": "store",
+   "fieldtype": "Link",
+   "label": "Store",
+   "options": "Store"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company SBDMA"
+  },
+  {
+   "fieldname": "column_break_tdgi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "portofentry",
+   "fieldtype": "Link",
+   "label": "Port Of Entry",
+   "options": "Port Of Entry"
+  },
+  {
+   "fieldname": "section_break_gahi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "seizureproduct",
+   "fieldtype": "Table",
+   "label": "Products",
+   "options": "Seizure Product"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-23 18:39:54.507244",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Seizure Process",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
