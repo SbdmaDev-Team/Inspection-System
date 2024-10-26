@@ -13,7 +13,7 @@ frappe.ui.form.on('AssignmentReport', {
                 method: 'frappe.client.set_value',
                 args: {
                     doctype: 'Assignment',    // نوع المستند الأصلي
-                    name: frm.doc.Assignment, // معرف المستند الأصلي
+                    name: frm.doc.assignment, // معرف المستند الأصلي
                     fieldname: 'workflow_state',       // الحقل الذي تريد تحديثه
                     value: 'Pending Approval'  // الحالة الجديدة التي تريد تعيينها
                 },
