@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "QUS-.#####",
+ "creation": "2024-10-25 21:40:07.131259",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "namequs",
+  "typequs"
+ ],
+ "fields": [
+  {
+   "fieldname": "namequs",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "typequs",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Depict\nYas&No",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-25 21:42:04.667546",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Qus Inspication",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

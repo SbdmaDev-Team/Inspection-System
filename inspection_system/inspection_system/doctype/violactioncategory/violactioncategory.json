@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "VCAT-.#####",
  "creation": "2024-10-19 12:04:36.551507",
  "default_view": "List",
  "doctype": "DocType",
@@ -39,10 +40,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-22 21:50:39.509186",
+ "modified": "2024-10-25 18:16:21.690796",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "ViolactionCategory",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -58,7 +60,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "nameviolactioncategory"
 }

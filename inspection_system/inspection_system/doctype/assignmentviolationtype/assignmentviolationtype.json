@@ -1,49 +1,42 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-10-19 11:15:07.898504",
- "default_view": "List",
+ "creation": "2024-10-23 20:48:41.979170",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "supplier",
-  "column_break_ents",
-  "person"
+  "violationtype",
+  "note"
  ],
  "fields": [
   {
-   "fieldname": "supplier",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_preview": 1,
-   "in_standard_filter": 1,
-   "label": "Supplier",
-   "options": "Supplier SBDMA"
-  },
-  {
-   "fieldname": "person",
+   "fieldname": "violationtype",
    "fieldtype": "Link",
    "in_filter": 1,
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
-   "label": "Person",
-   "options": "Person",
+   "label": "ViolationType",
+   "options": "ViolationType",
    "reqd": 1
   },
   {
-   "fieldname": "column_break_ents",
-   "fieldtype": "Column Break"
+   "fieldname": "note",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Note"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-10-25 18:29:16.554559",
+ "modified": "2024-10-23 20:53:48.317869",
  "modified_by": "Administrator",
  "module": "Inspection System",
- "name": "AssignmentPerson",
+ "name": "AssignmentViolationType",
  "owner": "Administrator",
  "permissions": [],
  "sort_field": "modified",

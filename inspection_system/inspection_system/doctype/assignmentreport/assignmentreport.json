@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "ASR-.#####",
  "creation": "2024-10-19 11:19:31.061629",
  "default_view": "List",
  "doctype": "DocType",
@@ -13,9 +14,11 @@
   "notes",
   "column_break_enzv",
   "conditionstore",
-  "assignmentid",
   "assignment",
-  "supplierid"
+  "attachments",
+  "section_break_hftw",
+  "assignmentviolationtype",
+  "amended_from"
  ],
  "fields": [
   {
@@ -39,20 +42,9 @@
    "label": "Notes"
   },
   {
-   "fieldname": "assignmentid",
-   "fieldtype": "Int",
-   "label": "AssignmentId"
-  },
-  {
    "fieldname": "conditionstore",
    "fieldtype": "Data",
    "label": "ConditionStore"
-  },
-  {
-   "fieldname": "supplierid",
-   "fieldtype": "Int",
-   "label": "SupplierId",
-   "options": "link"
   },
   {
    "fieldname": "column_break_enzv",
@@ -61,16 +53,45 @@
   {
    "fieldname": "assignment",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Assignment",
-   "options": "Assignment"
+   "options": "Assignment",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hftw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "assignmentviolationtype",
+   "fieldtype": "Table",
+   "label": "Assignment ViolationType",
+   "options": "AssignmentViolationType"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "AssignmentReport",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach Image",
+   "label": "Attachments"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-10-22 23:51:11.698981",
+ "modified": "2024-10-26 01:51:23.303977",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "AssignmentReport",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

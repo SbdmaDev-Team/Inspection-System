@@ -1,13 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "STORE-.#####",
  "creation": "2024-10-19 09:30:53.336313",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1",
+  "namestore",
   "shortname",
   "description",
   "column_break_gzvj",
@@ -33,16 +34,6 @@
    "options": "True\nFalse"
   },
   {
-   "fieldname": "name1",
-   "fieldtype": "Data",
-   "in_filter": 1,
-   "in_list_view": 1,
-   "in_preview": 1,
-   "in_standard_filter": 1,
-   "label": "Name",
-   "reqd": 1
-  },
-  {
    "fieldname": "shortname",
    "fieldtype": "Data",
    "label": "ShortName"
@@ -55,14 +46,25 @@
   {
    "fieldname": "column_break_gzvj",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "namestore",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Name",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-22 21:19:17.548836",
+ "modified": "2024-10-25 18:23:06.519011",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Store",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -78,7 +80,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "namestore"
 }

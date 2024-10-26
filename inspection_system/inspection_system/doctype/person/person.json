@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:personname",
+ "autoname": "PRS-.#####",
  "creation": "2024-10-19 10:45:08.095455",
  "default_view": "List",
  "doctype": "DocType",
@@ -69,12 +69,20 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-10-23 01:22:21.945855",
+ "links": [
+  {
+   "is_child_table": 1,
+   "link_doctype": "AssignmentPerson",
+   "link_fieldname": "person",
+   "parent_doctype": "Assignment",
+   "table_fieldname": "assignmentperson"
+  }
+ ],
+ "modified": "2024-10-25 18:30:16.594792",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Person",
- "naming_rule": "By fieldname",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
@@ -90,7 +98,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "personname"
 }
