@@ -7,6 +7,7 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "wiki_column",
   "assignmentreport",
   "violationdetails",
   "violationdate",
@@ -111,11 +112,15 @@
    "fieldtype": "Link",
    "label": "Violaction Category",
    "options": "Violaction Category"
+  },
+  {
+   "fieldname": "wiki_column",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-23 18:39:22.834167",
+ "modified": "2024-10-26 01:11:49.276106",
  "modified_by": "Administrator",
  "module": "Inspection System",
  "name": "Violation",
@@ -130,6 +135,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "INS",
    "share": 1,
    "write": 1
   }
