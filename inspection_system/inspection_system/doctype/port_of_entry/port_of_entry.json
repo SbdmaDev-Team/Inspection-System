@@ -1,20 +1,18 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "STORE-.#####",
- "creation": "2024-10-19 09:30:53.336313",
+ "autoname": "field:nameport",
+ "creation": "2024-10-19 09:53:09.741864",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "namestore",
+  "nameport",
   "shortname",
+  "column_break_xnts",
   "description",
-  "column_break_gzvj",
-  "address",
-  "personstore",
-  "status"
+  "address"
  ],
  "fields": [
   {
@@ -23,20 +21,9 @@
    "label": "Address"
   },
   {
-   "fieldname": "personstore",
-   "fieldtype": "Data",
-   "label": "Person Store"
-  },
-  {
-   "fieldname": "status",
-   "fieldtype": "Select",
-   "label": "Status",
-   "options": "True\nFalse"
-  },
-  {
    "fieldname": "shortname",
    "fieldtype": "Data",
-   "label": "Short Name"
+   "label": "ShortName"
   },
   {
    "fieldname": "description",
@@ -44,27 +31,28 @@
    "label": "Description"
   },
   {
-   "fieldname": "column_break_gzvj",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "namestore",
+   "fieldname": "nameport",
    "fieldtype": "Data",
    "in_filter": 1,
    "in_list_view": 1,
    "in_preview": 1,
    "in_standard_filter": 1,
    "label": "Name",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_xnts",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-25 18:23:06.519011",
+ "modified": "2024-10-22 21:16:20.510556",
  "modified_by": "Administrator",
  "module": "Inspection System",
- "name": "Store",
- "naming_rule": "Expression (old style)",
+ "name": "Port Of Entry",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -80,9 +68,7 @@
    "write": 1
   }
  ],
- "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "title_field": "namestore"
+ "states": []
 }

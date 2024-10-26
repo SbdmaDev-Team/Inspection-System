@@ -71,12 +71,12 @@
   {
    "fieldname": "licensenumber",
    "fieldtype": "Data",
-   "label": "licenseNumber"
+   "label": "License Number"
   },
   {
    "fieldname": "licensedate",
    "fieldtype": "Date",
-   "label": "licenseDate"
+   "label": "License Date"
   },
   {
    "fieldname": "expirydate",
@@ -86,7 +86,7 @@
   {
    "fieldname": "sitestore",
    "fieldtype": "Data",
-   "label": "SiteStore"
+   "label": "Site Store"
   },
   {
    "fieldname": "status",
@@ -113,7 +113,7 @@
   {
    "fieldname": "arshortname",
    "fieldtype": "Data",
-   "label": "ArShortName"
+   "label": "ArShort Name"
   },
   {
    "fieldname": "ardescription",
@@ -123,7 +123,7 @@
   {
    "fieldname": "pharmaperson",
    "fieldtype": "Data",
-   "label": "PharmaPerson"
+   "label": "Pharma Person"
   },
   {
    "fieldname": "column_break_wqsh",

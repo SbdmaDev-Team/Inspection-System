@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-19 10:05:03.632274",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "importpermitdetailsid",
+  "createat",
+  "updateat",
+  "createbyid",
+  "updatebyid",
+  "guid",
+  "isdeleted",
+  "flag",
+  "serialid",
+  "yearid",
+  "qty",
+  "bqty",
+  "licenseno",
+  "batchnumber",
+  "productiondated",
+  "expirydate",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "importpermitdetailsid",
+   "fieldtype": "Int",
+   "label": "Import Permit DetailsId"
+  },
+  {
+   "fieldname": "createat",
+   "fieldtype": "Date",
+   "label": "CreateAt"
+  },
+  {
+   "fieldname": "updateat",
+   "fieldtype": "Date",
+   "label": "UpdateAt"
+  },
+  {
+   "fieldname": "createbyid",
+   "fieldtype": "Int",
+   "label": "CreateById"
+  },
+  {
+   "fieldname": "updatebyid",
+   "fieldtype": "Int",
+   "label": "UpdateById"
+  },
+  {
+   "fieldname": "guid",
+   "fieldtype": "Int",
+   "label": "GUID"
+  },
+  {
+   "fieldname": "isdeleted",
+   "fieldtype": "Select",
+   "label": "Is Deleted",
+   "options": "True\nFalse"
+  },
+  {
+   "fieldname": "flag",
+   "fieldtype": "Int",
+   "label": "flag"
+  },
+  {
+   "fieldname": "serialid",
+   "fieldtype": "Int",
+   "label": "SerialId"
+  },
+  {
+   "fieldname": "yearid",
+   "fieldtype": "Int",
+   "label": "YearId"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Float",
+   "label": "Qty"
+  },
+  {
+   "fieldname": "bqty",
+   "fieldtype": "Float",
+   "label": "Bqty"
+  },
+  {
+   "fieldname": "licenseno",
+   "fieldtype": "Int",
+   "label": "LicenseNo"
+  },
+  {
+   "fieldname": "batchnumber",
+   "fieldtype": "Int",
+   "label": "Batch Number"
+  },
+  {
+   "fieldname": "productiondated",
+   "fieldtype": "Date",
+   "label": "Production Date"
+  },
+  {
+   "fieldname": "expirydate",
+   "fieldtype": "Date",
+   "label": "Expiry Date"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Data",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-23 18:45:31.930967",
+ "modified_by": "Administrator",
+ "module": "Inspection System",
+ "name": "Import Permit Batchs",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
